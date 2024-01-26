@@ -1,0 +1,29 @@
+title: "Rebsamen IT Docs"
+languageCode: "de_de"
+theme: "hextra"
+
+menu:
+  main:
+    - name: Search
+      params:
+        type: search
+    - name: Voraussetzungen
+      weight: 1
+      pageRef: /voraussetzungen
+    - name: Physical Layer
+      weight: 2
+      pageRef: /01-physical-layer
+    - name: Data Link Layer
+      weight: 2
+      pageRef: /02-data-link-layer
+    - name: Network Layer
+      weight: 3
+      pageRef: /03-network-layer
+
+params:
+  navbar:
+    displayTitle: true
+    displayLogo: true
+    logo:
+      path: logo.svg
+    link: "/"
