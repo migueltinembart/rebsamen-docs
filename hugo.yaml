@@ -1,7 +1,7 @@
 title: "Rebsamen IT Docs"
 languageCode: "de_de"
 theme: "hextra"
-baseURL: rebsamen-docs.migueltinembart.com
+baseURL: https://rebsamen-docs.migueltinembart.com
 
 menu:
   main:
