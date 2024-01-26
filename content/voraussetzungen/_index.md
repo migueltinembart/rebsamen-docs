@@ -1,7 +1,7 @@
 +++
 title = 'Voraussetzungen'
 date = 2024-01-26T15:11:44+01:00
-draft = true
+draft = false
 +++
 
 Um mit dem Workshop zu starten sind kleine aber doch wichtige Tools nötig, damit deine Workshoperfahrung so einfach wie möglich ist. Folgende Tools werden am meisten benötigt:

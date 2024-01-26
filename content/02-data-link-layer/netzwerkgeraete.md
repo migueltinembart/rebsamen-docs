@@ -1,7 +1,7 @@
 +++
 title = 'Netzwerkgeräte'
 date = 2024-01-26T15:24:54+01:00
-draft = true
+draft = false
 +++
 
 in der zweiten Schicht kennt man heutzutage nciht mehr viele Geräte. Der Netzwerkswitch hat sich seit Jahren als die einzige Alternative erwiesen und bleibt bis heute die Kernkomponente für Ethernetbasierte Netzwerke. Trotzdem beschreibe ich hier noch ein paar namenhafte Komponenten aus der Frühzeit und wie Ethernet mit diesen Komponenten funktionierte und Lösungen gefunden wurde um auf den Stand eines Switches zu kommen.
@@ -31,22 +31,21 @@ Belegt: => Weiter mit Schritt 1
 
 **Schritt 2 Senden: Während dem Abhören wird die Information auf das Medium übertragen**
 
-   Erfolg: => Die Übertragung ist erfolgreich. Weiter mit Schritt 5
+Erfolg: => Die Übertragung ist erfolgreich. Weiter mit Schritt 5
 
-   Kollision: => Wird eine Kollision entdeckt, beendet die Komponente die Übertragung und sendet ein Jam-Signal welches alle Geräte informiert, dass eine Kollision stattgefunden hat. Weiter mit Schritt 3
+Kollision: => Wird eine Kollision entdeckt, beendet die Komponente die Übertragung und sendet ein Jam-Signal welches alle Geräte informiert, dass eine Kollision stattgefunden hat. Weiter mit Schritt 3
 
 **Schritt 3 Leitung ist belegt: Überprüfe die Anzahl der Übertragungsversuche**
 
-   Maximum nicht erreicht: eine zufällige Backof-Zeit wird abgewartet. Weiter mit Schritt 1
+Maximum nicht erreicht: eine zufällige Backof-Zeit wird abgewartet. Weiter mit Schritt 1
 
-   Maximux erreicht: Weiter mit Schritt 4
+Maximux erreicht: Weiter mit Schritt 4
 
 **Schritt 4 Fehler: Maximale Anzahl an Übertragunsversuchen wurde überschritten und ein Fehler wird an die übergeordnete Schicht (Layer 3) zurückgeschickt.**
 
 Weiter mit Schritt 5
 
 **Schritt 5** Übertragungsmodus beenden
-
 
 ## Switches
 
@@ -57,14 +56,14 @@ Seit der Erfindung des Switches im Vergleich zu den heutigen am Markt verfügbar
 
 Switches können in verschienenen Arten und Formen auftauchen. Festverbaut oder modular in einem Chassis, mit RJ45 oder SFP+ Modulen zu Erweiterung von Schnittstellen oder auch mit direkter Spannungsversorgung über das Netzwerkkabel mittels PoE.
 
-Wichtig ist zu verstehen dass Switches in ihren Operationen rein auf Layer 2 arbeiten und die darüberliegenden Layer nicht versteht oder verstehen muss. Trotzdem hat man im Laufe der Zeit an vielen Stellen mit Layer 3 Switches (sogenannte Multilayer Switches) eine Variante des Netzwerkswitches gemacht, welches Routing auch möglich macht. Obwohl diese Switches auch auf Layer 3 operieren können, heisst das nicht dass diese Switches nicht ihre Aufgabe als Switch wahrnehmen, sondern dass die Funktionalität von Routern virtuell auf solche Switches abgewältzt wurde um für spezielle Fälle eine andere Alternative bietet ohne Router mit mehreren Netzwerken einfach umzugehen. 
+Wichtig ist zu verstehen dass Switches in ihren Operationen rein auf Layer 2 arbeiten und die darüberliegenden Layer nicht versteht oder verstehen muss. Trotzdem hat man im Laufe der Zeit an vielen Stellen mit Layer 3 Switches (sogenannte Multilayer Switches) eine Variante des Netzwerkswitches gemacht, welches Routing auch möglich macht. Obwohl diese Switches auch auf Layer 3 operieren können, heisst das nicht dass diese Switches nicht ihre Aufgabe als Switch wahrnehmen, sondern dass die Funktionalität von Routern virtuell auf solche Switches abgewältzt wurde um für spezielle Fälle eine andere Alternative bietet ohne Router mit mehreren Netzwerken einfach umzugehen.
 
 ## Access Points
 
 ![Cisco Access Point](https://www.cisco.com/c/dam/en/us/support/web/images/series/wireless-aironet-700-series.jpg){align=right width=450}
-Ein Access Point dient zur Erweiterung des Netzwerks für nichtkabelgebundene Endgeräte. Ein Access Point operiert genau betrachtet auf der ersten und zweiten Schicht und dient als Brücke der kabelgebundenen Protokolle auf kabellose Protokolle. Access Points arbeiten anders als Switches mit dem 802.11 Wlan-Standard und arbeitet wie bei Ethernet mit Mac-Adressen, aber auch mit anderen Parametern um die Verbindungen zu steuern. 
+Ein Access Point dient zur Erweiterung des Netzwerks für nichtkabelgebundene Endgeräte. Ein Access Point operiert genau betrachtet auf der ersten und zweiten Schicht und dient als Brücke der kabelgebundenen Protokolle auf kabellose Protokolle. Access Points arbeiten anders als Switches mit dem 802.11 Wlan-Standard und arbeitet wie bei Ethernet mit Mac-Adressen, aber auch mit anderen Parametern um die Verbindungen zu steuern.
 
 > [!INFO]- Gut zu wissen
-> Trotz der guten Datenübertragungsgeschwindigkeit mit WLAN, funktioniert die Übertragung nur über Halb-Duplex. Das heisst der WLAN-Sender und die gebundenen Geräte können nicht gleichzeitig Senden und empfangen. 
+> Trotz der guten Datenübertragungsgeschwindigkeit mit WLAN, funktioniert die Übertragung nur über Halb-Duplex. Das heisst der WLAN-Sender und die gebundenen Geräte können nicht gleichzeitig Senden und empfangen.
 >
 > Man hat sich dabei auf sehr gewagte Übertragungsmethoden und Konzepte orientiert und ist ein Thema welches für jeden interessierten besser in einer Selbststudie angeschaut werden soll. Das beschriebene Verfahren [CSMA/CA](https://de.wikipedia.org/wiki/Carrier_Sense_Multiple_Access/Collision_Avoidance) (Nicht verwechseln mit CSMA/CD) dient dabei als eine der wichtigsten Fundamente wie Halbduplex für solche Fälle bestens geeignet ist.

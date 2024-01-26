@@ -1,7 +1,7 @@
 +++
 title = 'Texteditor Installieren'
 date = 2024-01-26T15:17:13+01:00
-draft = true
+draft = false
 +++
 
 Der Standardtexteditor von Windows ist ganz ok... doch es geht auch besser. Falls du dich fragst wieso der Text-Editor auf einmal eine wichtige Rolle spielt, wirst du in diesem Workshop merken dass, wir sehr start auf eine gute Umgebung mit Integration für Git angewiesen sind. Wieso also nicht gleicht das richtige Tool installieren für den Job. Die Wahl überlasse ich dir und stelle dir mal 3 Text-Editoren vor, welche ich über den eingebauten Text-Editor von Windows bevorzugen würde.

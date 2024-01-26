@@ -1,7 +1,7 @@
 +++
 title = 'Quality of Service'
 date = 2024-01-26T15:25:21+01:00
-draft = true
+draft = false
 +++
 
 QoS ermöglicht es uns mit der Einführung von [IEEE802.1p](https://de.wikipedia.org/wiki/IEEE_802.1p) Frames mit einer Prioritätsinformation auszustatten und dem Switch mitzuteilen mit welcher Priorität diese Frames verarbeitet werden. Somit können wir für zeitkritische Anwendungen (Telefonie, Video) sicherstellen, dass diese Frames bevorzugt behandelt werden.

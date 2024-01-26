@@ -1,7 +1,7 @@
 +++
 title = 'Address Resolution Protocol'
 date = 2024-01-26T15:27:43+01:00
-draft = true
+draft = false
 +++
 
 ARP ist ein Layer-3 Protokoll welches MAC-Adressen mit IP-Adressen in einer Tabelle asoziiert. ARP vereinfacht die Kommunikation mit anderen IP-fähigen Endgeräten, da für die erfolgreiche Kommunikation in einem Netzwerk ohne MAC-Adresse ein IP-Paket kein Ziel finden kann. So kann in einer Broadcast-Domäne die MAC-Adresse aller Endgeräte mit denen über IP-Kommuniziert werden soll, die Relation der Hardwareadresse zur logischen IP-Adresse hergestellt werden.

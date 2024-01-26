@@ -1,7 +1,7 @@
 +++
 title = 'Kupfer'
 date = 2024-01-26T15:20:56+01:00
-draft = true
+draft = false
 +++
 
 Kupfer hat sich in der heutigen Zeit als schnelles Übertragungsmedium etabliert. Sie bieten kostentechnisch den besten Mehrwert und bieten durch ihre physikalische Beschaffenheit stabilität vor Stössen und Rissen. Physische Limitationen sind heute fast nicht zu erkennen, obwohl doch einige dieser Nachteile stets vorhanden sein werden. Noch mals kurzaufgeführt die wichtigsten Merkmale von Kupfer als Übertragungsmedium:
@@ -42,6 +42,7 @@ Der Unterschied von Klassen und Kategoerien geht wie folgt:
 - Kategorien beschreiben die einzelnen Komponenten in einem Kabel, kann aber wenn alle Komponenten gleichwertig sind auf das Kabel mittels Klassen übertragen werden
 
 ### Schirmung
+
 Da Twisted Pair Kabel den natürlichen Gesetzen des Elektromagnetismus ausgesetzt sind, können äussere Störeinflüsse die Qualität des Signals stark beinträchtigen. In vielen industriellen Gebeiten werden heutzutags nur noch geschirmte Twisted Pair Kabel verwendet. Denn diese bieten folgende Vorteile gegenüber nichtgeschirmten Kabeln:
 
 - Das Übersprechen zwischen Kabeln wird verringert
@@ -58,7 +59,7 @@ Kabelbezeichnung werden von Herstellern somit in folgender Form kombiniert
 - S für Schirm (drahtgeflecht)
 - F für Schirm mit Folie als Mantel
 
-Diese Bezeichnung werden dann zusammen zu einer Bezeichnung der Charakteristik angewandt. Ein Kabel welches als FTP-Kabel verkauft wird, besitzt dabei für jedes Aderpaar eine Folie zur Schirmung. ein S/FTP bietet zusätzlich ein drahtgefelcht um alle Aderpaare für eine zusätzliche Abschirmung. 
+Diese Bezeichnung werden dann zusammen zu einer Bezeichnung der Charakteristik angewandt. Ein Kabel welches als FTP-Kabel verkauft wird, besitzt dabei für jedes Aderpaar eine Folie zur Schirmung. ein S/FTP bietet zusätzlich ein drahtgefelcht um alle Aderpaare für eine zusätzliche Abschirmung.
 
 ### Vorteile
 
@@ -72,9 +73,9 @@ Folgendes sind Vorteile für eine Twisted-Pair Verkabelung:
 
 ## Koaxiale Verbindungen
 
-Koaxiale Kabel sind 2 polige Kabel mit einem einfachen Aufbau. Einem Innenleiter und einem Aussenleiter. Dieser Aufbau ist konzenrisch, d.h. die Auslagerung der Verbindungen vom Zentrum gesehen immer symmetrisch aufgebaut ist. 
+Koaxiale Kabel sind 2 polige Kabel mit einem einfachen Aufbau. Einem Innenleiter und einem Aussenleiter. Dieser Aufbau ist konzenrisch, d.h. die Auslagerung der Verbindungen vom Zentrum gesehen immer symmetrisch aufgebaut ist.
 
-![Koaxiales Kabel - Aufbau](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Coaxial_cable_cutaway_new.svg/330px-Coaxial_cable_cutaway_new.svg.png){align=right} 
+![Koaxiales Kabel - Aufbau](https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Coaxial_cable_cutaway_new.svg/330px-Coaxial_cable_cutaway_new.svg.png){align=right}
 
 Folgend ein kurzes Aufbauprinzip:
 
@@ -83,7 +84,7 @@ Folgend ein kurzes Aufbauprinzip:
 3. Aussenleiter und Abschirmung
 4. Schutzmantel
 
-Zu beachten ist, dass im Falle eines Koaxialkabels der Aussenleiter gleichzeit als Schirm verwendet wird. 
+Zu beachten ist, dass im Falle eines Koaxialkabels der Aussenleiter gleichzeit als Schirm verwendet wird.
 
 ### Vorteile
 

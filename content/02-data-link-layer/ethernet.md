@@ -1,7 +1,7 @@
 +++
 title = 'Ethernet'
 date = 2024-01-26T15:24:06+01:00
-draft = true
+draft = false
 +++
 
 Das Ethernet Protokol ist eine Familie von kabelgebundenen Technologien und wurde 1980 unter dem IEEE Standard IEEE802.3 festgelegt. Ethernet wurde über die Jahre immer weiterentwickelt um schnellere Übertragungen zu ermöglichen, längere Distanzen zu überbrücken um das darunterliegenden Twisted Pair Kabel besser ausnützen zu können oder einfachere Mehrverbindungen zuzulassen. In der Zeit ist aber Ethernet immer abwärtskompatibel zu deren älteren Definitionen gehalten worden.

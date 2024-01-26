@@ -1,7 +1,7 @@
 +++
 title = 'Wi-Fi'
 date = 2024-01-26T15:26:23+01:00
-draft = true
+draft = false
 +++
 
 WIFI - auch bekannt als [IEEE 802.11](https://de.wikipedia.org/wiki/IEEE_802.11) schaffte die Standartisierung der Funkübertragung in einem Ethernetfähigen Netzwerk. Technisch gesehen ist 802.11 eigentlich eine Layer 1 Spezifikation, schafft aber so auch eine Schnittstelle für die Ethernet Kommunikation auf Layer 2. Darum bekommt WIFI ein eigenes Kapitel, welches näher den Fokus auf praktische Tipps und die technischen Aspekte der elektromagnetischen Eigenschaften setzt.
@@ -26,9 +26,9 @@ Mit den verschiedenen Frequenzbändern, vorallem in neuen WLAN-Netzwerken, kann 
 
 ### Sender und Empfänger
 
-In den letzten Jahren sind die Anzahl an WLAN fähigen Geräten stark gestiegen. im Jahr 2022 wurden 4.4 Milliarden Endgeräte welche durch die WIFI-Alliance zertifiziert wurden weltweit verkauft. Seit beginn der WIFI-Alliance im Jahr 1999 wurden bislang 18 Milliarden WLAN-fähige Geräte verkauft. Die meisten dieser Geräte bilden Empfängergeräte. Doch die Anzahl an Sendegeräten steigt stark weiter. Manche Geräte bieten ja sogar die Funktionalität für Senden oder emfpangen von WLAN-Signalen (Smartphones, etc.), somit ist die klare  Unterscheidung der Spezifikationen für Sender und Empfängergeräte und deren Unterschiedliche Implementation wichtig. Man sollte in diesem Fall klar unterscheiden zwischen dem eigentlichen Senden und Empfangen von Daten und der eigentlichen Funktionalität eines WIFI-konformen Endgeräts. Beide Endgerätetypen können Senden und Empfangen, vorgesehen sind sie aber für andere Dienstzwecke. Aber nur Sendegeräte strahlen aktiv WLAN-Signale aus, die anderen Endgeräte übertragen nutzen das bestehende Signal als Träger für Nutzdaten.
+In den letzten Jahren sind die Anzahl an WLAN fähigen Geräten stark gestiegen. im Jahr 2022 wurden 4.4 Milliarden Endgeräte welche durch die WIFI-Alliance zertifiziert wurden weltweit verkauft. Seit beginn der WIFI-Alliance im Jahr 1999 wurden bislang 18 Milliarden WLAN-fähige Geräte verkauft. Die meisten dieser Geräte bilden Empfängergeräte. Doch die Anzahl an Sendegeräten steigt stark weiter. Manche Geräte bieten ja sogar die Funktionalität für Senden oder emfpangen von WLAN-Signalen (Smartphones, etc.), somit ist die klare Unterscheidung der Spezifikationen für Sender und Empfängergeräte und deren Unterschiedliche Implementation wichtig. Man sollte in diesem Fall klar unterscheiden zwischen dem eigentlichen Senden und Empfangen von Daten und der eigentlichen Funktionalität eines WIFI-konformen Endgeräts. Beide Endgerätetypen können Senden und Empfangen, vorgesehen sind sie aber für andere Dienstzwecke. Aber nur Sendegeräte strahlen aktiv WLAN-Signale aus, die anderen Endgeräte übertragen nutzen das bestehende Signal als Träger für Nutzdaten.
 
-Auch WLAN fähige Geräte besitzen eine oder mehrere MAC-Adressen, unabhängig ob diese nun Sender oder Empfänger sind. Empfängergeräte sind die Schnittstelle zu einem Layer-2 Netzwerk für Ethernet und Empfängeräte können dann über die Sendeübertragung über diese Umwandlung mit über Ethernet auf Netzwerkgeräte im gesamten Netzwerk sich verbinden. 
+Auch WLAN fähige Geräte besitzen eine oder mehrere MAC-Adressen, unabhängig ob diese nun Sender oder Empfänger sind. Empfängergeräte sind die Schnittstelle zu einem Layer-2 Netzwerk für Ethernet und Empfängeräte können dann über die Sendeübertragung über diese Umwandlung mit über Ethernet auf Netzwerkgeräte im gesamten Netzwerk sich verbinden.
 
 #### Sender
 
@@ -36,7 +36,7 @@ Fast überall wo ein Gebäude, ein Kampus, oder ein Haus steht, wird sicher mit 
 
 #### Empfänger
 
-Die klassischen Empfängergeräte heutzutage können kurz zusammengefasst werden in: 
+Die klassischen Empfängergeräte heutzutage können kurz zusammengefasst werden in:
 
 - Smartphones
 - Notebooks
@@ -44,11 +44,11 @@ Die klassischen Empfängergeräte heutzutage können kurz zusammengefasst werden
 - Wearables (Smartwatch, etc.)
 - TV
 
-Doch auch schon in den Bereichen von IoT wird häufiger auf WLAN gesetzt. Empfängergeräte können klassischer Weisse als Verbraucher in betrachtet werden und sorgen nicht für die Ausstrahlung von WLAN-Netzwerken, nutzen daher die bestehenden ausgestrahlten Signale zur Datenübermittlung. Somit sind Empfängergeräte von einem ausgestrahlten WLAN-Netzwerk abhängig. Ausgestrahlte Netzwerke können dann von Empfängergeräten aufgenommen werden und mittels Authentifizierungsverfahren mit diesem ausgestrahlten WLAN-Netzwerk verbunden werden. 
+Doch auch schon in den Bereichen von IoT wird häufiger auf WLAN gesetzt. Empfängergeräte können klassischer Weisse als Verbraucher in betrachtet werden und sorgen nicht für die Ausstrahlung von WLAN-Netzwerken, nutzen daher die bestehenden ausgestrahlten Signale zur Datenübermittlung. Somit sind Empfängergeräte von einem ausgestrahlten WLAN-Netzwerk abhängig. Ausgestrahlte Netzwerke können dann von Empfängergeräten aufgenommen werden und mittels Authentifizierungsverfahren mit diesem ausgestrahlten WLAN-Netzwerk verbunden werden.
 
 ## Technische Aspekte für die Integration und Inbetriebnahme
 
-Nun genug von Normen. Unabhängig wie stark die Ausstrahlung oder ob der Access Point WIFI-6 tauglich wäre oder nicht, gibt es klare Parameter, Ausdrücke und Definitionen welche auf ein WLAN-Netzwerk zutreffen und mit unseren Endgeräten verwendet werden kann um ein WLAN Netzwerk herszustellen, sich damit zu verbinden und die Verbindung sicherzustellen. 
+Nun genug von Normen. Unabhängig wie stark die Ausstrahlung oder ob der Access Point WIFI-6 tauglich wäre oder nicht, gibt es klare Parameter, Ausdrücke und Definitionen welche auf ein WLAN-Netzwerk zutreffen und mit unseren Endgeräten verwendet werden kann um ein WLAN Netzwerk herszustellen, sich damit zu verbinden und die Verbindung sicherzustellen.
 
 Ein WLAN-Netzwerk hat folgende technische Eigenschaften:
 

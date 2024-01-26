@@ -1,10 +1,10 @@
 +++
 title = 'Data Link Layer'
 date = 2024-01-26T15:23:17+01:00
-draft = true
+draft = false
 +++
 
-Der Data-Link Layer ist die zweite Schicht im OSI-Modell und ist verantwortlich für die Übertragung von Datenpaketen von einem Knoten zum nächsten. Er stellt eine zuverlässige Verbindung zwischen zwei **direkt** verbundenen Netzwerkknoten her und ermöglicht die Kommunikation zwischen ihnen. Der Data-Link Layer ist in zwei Subschichten unterteilt: 
+Der Data-Link Layer ist die zweite Schicht im OSI-Modell und ist verantwortlich für die Übertragung von Datenpaketen von einem Knoten zum nächsten. Er stellt eine zuverlässige Verbindung zwischen zwei **direkt** verbundenen Netzwerkknoten her und ermöglicht die Kommunikation zwischen ihnen. Der Data-Link Layer ist in zwei Subschichten unterteilt:
 
 - Logical Link Control (LLC) und Media Access Control (MAC).
 - Die LLC-Schicht ist verantwortlich für die Fehlerkontrolle, Flusskontrolle und Rahmen-Synchronisation.

@@ -1,7 +1,7 @@
 +++
 title = 'Git installieren'
 date = 2024-01-26T15:10:23+01:00
-draft = true
+draft = false
 +++
 
 Git ist ein Versionierungstool, ähnlich wie SVN, welches den Fokus auf lokale Entwicklung und Kontrolle von textbasierten Files bietet. Git ist heute das meistverwendete Versionierungstool das es gibt. Git darf nicht mit Github verwechselt werden. Github ist ein Git Repository Provider und falls es dir nicht aufgefallen ist, liest du gerade dieses Dokument auf Azure DevOps, einem Konkurenzprodukt zu Github. Damit du im Workshop auf deiner lokalen Maschine mit den Tools arbeiten kannst die in diesem Workshop ersichtlich sind, wirst du somit Git brauchen um eine Kopie dieses Git Repositories auf deinen Rechner zu verwalten. Also starten wir mal mit der Installation:

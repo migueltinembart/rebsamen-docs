@@ -1,7 +1,7 @@
 +++
 title = 'Kapselung'
 date = 2024-01-26T15:24:21+01:00
-draft = true
+draft = false
 +++
 
 Eines der wichtigsten Konzepte, besonders wenn man mit allen Schichten in einem OSI-Model die richtige Herangehensweise verstehen kann wie aus den Daten welche zum Beispiel bei einem Webaufruf die Daten darstellen kann, muss mit dem Begriff der Kapselung angefangen werden. Die Kapselung beschreibt in kurzer Form wie Daten von verschiedenen Softwareschichten miteinander Daten austauschen können ohne die dabei zugrundeliegende Datenkapsel manipulieren zu müssen.

@@ -1,7 +1,7 @@
 +++
 title = 'Netzwerkadapter'
 date = 2024-01-26T15:21:53+01:00
-draft = true
+draft = false
 +++
 
 Ein Netzwerkadapter, auch bekannt als Netzwerkkarte oder Netzwerkinterfacekarte (NIC), ist ein Hardwaregerät, das es einem Computer ermöglicht, mit einem Netzwerk zu kommunizieren. Es wandelt die Daten, die vom Computer gesendet werden, in ein Format um, das über das Netzwerk übertragen werden kann, und umgekehrt. Netzwerkadapter stehen in der Grenze zur physikalischen Beschaffenheit für die digitale èbertragung von Bits und der Hardware die über den TCP/IP Stack kommunizieren.
@@ -16,7 +16,7 @@ Netzwerkadapter verwenden verschiedene Methoden zur Übertragung von Bits, abhä
 
 ### Weitere Eigenschaften
 
-Ein Netzwerkadapter ist das Bindeglied zwischen der physikalischen Schicht und der zweiten Schicht (gemäss OSI-Model) dem Data-Link Layer. Das heisst dass für die Übertragung von Ethernet Ethernet Frames auch gewisse Eigenschaften vom Data-Link Layer vorhanden sind. Alle Netzwerkadapter besitzen eine [Mac-Adresse](https://de.wikipedia.org/wiki/MAC-Adresse). Diese Adresse ist meist schon vom Hersteller auf dem Adapter fest vergeben. 
+Ein Netzwerkadapter ist das Bindeglied zwischen der physikalischen Schicht und der zweiten Schicht (gemäss OSI-Model) dem Data-Link Layer. Das heisst dass für die Übertragung von Ethernet Ethernet Frames auch gewisse Eigenschaften vom Data-Link Layer vorhanden sind. Alle Netzwerkadapter besitzen eine [Mac-Adresse](https://de.wikipedia.org/wiki/MAC-Adresse). Diese Adresse ist meist schon vom Hersteller auf dem Adapter fest vergeben.
 
 Ein Netzwerkadapter muss sich ausserdem damit befassen, wie die Daten kontrolliert und sicher übertragen werden. Die folgenden Mechanismen beschreiben zusätzliche Eigenschaften von heutigen Netzwerkschnittstellen, unabhängig des Übertragungsmedium:
 

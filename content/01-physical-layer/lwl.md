@@ -1,7 +1,7 @@
 +++
 title = 'Lichwellenleiter'
 date = 2024-01-26T15:21:19+01:00
-draft = true
+draft = false
 +++
 
 Lichtwellenleiter, auch bekannt als Glasfaserkabel, sind eine Schlüsseltechnologie in modernen Kommunikationsnetzwerken. Sie verwenden Licht zur Übertragung von Daten und sind in zwei Haupttypen unterteilt: Single-Mode und Multi-Mode.
@@ -19,7 +19,6 @@ Ein Lichtwellenleiter besteht aus mehreren Schichten:
 3. Puffer (Buffer): Dies ist eine Schutzschicht, die den Mantel umgibt. Sie schützt den Lichtwellenleiter vor physischen Schäden und Umwelteinflüssen.
 
 4. Außenmantel (Jacket): Dies ist die äußere Schicht des Lichtwellenleiters. Sie schützt vor Umwelteinflüssen wie Feuchtigkeit, Chemikalien und physischen Schäden.
-
 
 ### Single-Mode
 

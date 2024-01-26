@@ -1,7 +1,7 @@
 +++
 title = 'Power Over Ethernet'
 date = 2024-01-26T15:22:15+01:00
-draft = true
+draft = false
 +++
 
 Power over Ethernet bezeichnet das Verfahren mit dem das Ethernet-Kabel mit dem das Netzwerkendgerät angeschlossen ist, zur Stromversorgung verwendet wird. Der Standard IEEE 802.3 (Ethernet) hält die Vorgaben und die Implemenetation für Hersteller und Anwender fest und besitzt weitere Normierungen. Darunter zählen die Standards 802.3at, 802.3af und neu auch 802.3bt zu den Power over Ethernet Substandards mit welchen Leistungsangaben, Speisungsart und sonstiges spezifiziert werden.

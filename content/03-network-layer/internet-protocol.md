@@ -1,7 +1,7 @@
 +++
 title = 'Internet Protocol'
 date = 2024-01-26T15:27:19+01:00
-draft = true
+draft = false
 +++
 
 Das Internetprotokol ist das meistverbreitete Protokol unter den Netzwerkprotokollen und stellt somit die Grundlage für unser Internet dar. Durch das IP-Protokol wird die Übertragungs über weite gespannte Netzwerke vereinfacht und mit Rounting sichergestellt, dass IP-Pakete an die richtige Stelle weitergeleitet werden.
@@ -166,6 +166,6 @@ Der Router in diesem Beispiel hat die Adresse 192.168.1.2
 | 192.168.3.128/25 | 192.168.1.1        |
 | 0.0.0.0/0        | 58.12.13.124       |
 
-Die ersten beiden Einträge sind für 2 andere interne Netzwerke welche sich hinter einem anderen Router mit der Adresse 192.168.1.1 befinden. Der letzte Eintrag ist eine spezielle Regel und trifft meistens im letzten Fall ein, wenn keine passende Route für eine Adresse gefunden wird und ist auch die Definition eines Standard-Gateways. Mit 0.0.0.0/0 wird angezeigt dass alle IP-Pakete welche nicht ans selbe Subnetz gehen oder eine vordefinierte Route besitzen einfach an den Next-Hop-Router weitergeleitet werden. Sozusagen der Standard-Gateway eines anderen Standard-Gateways. 
+Die ersten beiden Einträge sind für 2 andere interne Netzwerke welche sich hinter einem anderen Router mit der Adresse 192.168.1.1 befinden. Der letzte Eintrag ist eine spezielle Regel und trifft meistens im letzten Fall ein, wenn keine passende Route für eine Adresse gefunden wird und ist auch die Definition eines Standard-Gateways. Mit 0.0.0.0/0 wird angezeigt dass alle IP-Pakete welche nicht ans selbe Subnetz gehen oder eine vordefinierte Route besitzen einfach an den Next-Hop-Router weitergeleitet werden. Sozusagen der Standard-Gateway eines anderen Standard-Gateways.
 
-Nicht nur Router können IP-Routen anlegen, auch PC-Clients, Firewalls und sonstige Layer-3-bewusste Geräte haben die Möglichkeiten eine Route zu definieren. Dabei hängt die Implementation stark von den Tools ab, welche mit diesen Systemen herumkommen. 
+Nicht nur Router können IP-Routen anlegen, auch PC-Clients, Firewalls und sonstige Layer-3-bewusste Geräte haben die Möglichkeiten eine Route zu definieren. Dabei hängt die Implementation stark von den Tools ab, welche mit diesen Systemen herumkommen.

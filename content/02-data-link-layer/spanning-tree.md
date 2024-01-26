@@ -1,7 +1,7 @@
 +++
 title = 'Spanning Tree'
 date = 2024-01-26T15:25:50+01:00
-draft = true
+draft = false
 +++
 
 Spanning Tree ist ein eigenes Protokol zum Austausch von Schleifenbildungen in geswitchten Umgebungen. Das Ziel von Spanning Tree ist es anhand von Gewichts und Stammangaben der Switches einen eindeutigen Pfad du definieren und eventuelle Schleifen im Netzwerk zu identifizieren und sich davor zu schützen. Hauptsächlich aber verwendet man Spanning Tree zur Redundanzabsicherung in einem Netzwerk ohne, dass sogenante Broadcast-Loops entstehen können.
@@ -110,4 +110,4 @@ Wenn ein Netzwerkgerät an einen Switch mit Spanning Tree geknüpft wird, durchl
 
 Wenn 2 mit Spanning Tree konfigurierten Switches miteinander verbunden ändert sich die ganze Spanning Tree von alleine und durchläuft mehrere Schritte um den Spanning Tree aufrecht zu halten.
 
-Beide Switches nehmen zuerst an sie seien die Root Bridge solange bis sie miteinander verbunden werden. Bei beiden Switches starten die entsprechenden Ports im _Blocking_ Zustand und danach in den Listening Zustand. Nun übertragen beide Switches ihre Bridge ID und können nun anhand des [oben](#root-bridge) gennanten Verfahrens ausmachen welcher Switch nun die Root Bridge ist. Nachdem die Root Bridge auserwählt wurde, wird automatisch der Port an der Root Bridge zu einem Designated Port und der Port der nicht-Root Bridge zu einem Root Port. 
+Beide Switches nehmen zuerst an sie seien die Root Bridge solange bis sie miteinander verbunden werden. Bei beiden Switches starten die entsprechenden Ports im _Blocking_ Zustand und danach in den Listening Zustand. Nun übertragen beide Switches ihre Bridge ID und können nun anhand des [oben](#root-bridge) gennanten Verfahrens ausmachen welcher Switch nun die Root Bridge ist. Nachdem die Root Bridge auserwählt wurde, wird automatisch der Port an der Root Bridge zu einem Designated Port und der Port der nicht-Root Bridge zu einem Root Port.

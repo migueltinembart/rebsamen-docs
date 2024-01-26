@@ -1,7 +1,7 @@
 +++
 title = 'Putty Installieren'
 date = 2024-01-26T15:17:22+01:00
-draft = true
+draft = false
 +++
 
 Putty zu installieren ist genauso einfach wie die Installation eines Text-Editors. Lade den Installer [hier](https://the.earth.li/~sgtatham/putty/latest/w64/putty-64bit-0.79-installer.msi) herunter und installiere durch bestätigen jedes Kontext-Menus bi sPutty installiert ist.
